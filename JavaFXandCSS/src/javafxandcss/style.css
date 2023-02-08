@@ -11,22 +11,29 @@ and open the template in the editor.
 
 
 @import url('https://fonts.googleapis.com/css?family=Molle:400i');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo&family=Noto+Sans+JP:wght@100&family=Solitreo&display=swap');
+
+
 
 AnchorPane
 {
-    -fx-background-color: lightgreen;
-    -fx-font-family: 'Molle', cursive;
+    -fx-background-image: url("standard_pandaer.jpg");
+    -fx-background-color: Black;
+    -fx-font-family: 'Noto Sans Hanunoo', sans-serif;
+    -fx-font-family: 'Noto Sans JP', sans-serif;
+    -fx-font-family: 'Solitreo', cursive;
 }
 
 Label
 {
-    -fx-text-decoration: underline; 
+    -fx-text-decoration: underline;
+    -fx-background-color: #383838;
    
 }
 
 TextField
 {
-    -fx-background-color: white;
+    -fx-background-color: #383838;
 }
 
 
@@ -35,6 +42,11 @@ TextField
     -fx-text-fill: white; /* "color" in normal CSS */
     -fx-text-decoration: underline;
     -fx-font-weight: bold;
+    -fx-background-color: #383838;
+}
+.button
+{
+    -fx-background-color: #383838;
 }
 
     

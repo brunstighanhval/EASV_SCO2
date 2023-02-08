@@ -6,26 +6,36 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="238.0" prefWidth="320" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxandcss.LoginUIController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="754.0" prefWidth="932.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxandcss.LoginUIController">
    <children>
-      <Label fx:id="lblUsername" layoutX="51.0" layoutY="42.0" prefHeight="31.0" prefWidth="83.0" styleClass="login_labels" text="Username">
+      <Label fx:id="lblUsername" layoutX="389.0" layoutY="8.0" prefHeight="124.0" prefWidth="542.0" styleClass="login_labels" text="UserName">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblPassword" layoutX="51.0" layoutY="87.0" prefHeight="31.0" prefWidth="83.0" styleClass="login_labels" text="Password">
+      <Label fx:id="lblPassword" layoutX="389.0" layoutY="602.0" prefHeight="116.0" prefWidth="542.0" styleClass="login_labels" text="Password">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField fx:id="txtUsername" layoutX="136.0" layoutY="45.0" />
-      <TextField fx:id="txtPassword" layoutX="136.0" layoutY="90.0" />
-      <Button fx:id="btnLogin" layoutX="203.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="25.0" prefWidth="83.0" text="Login" />
-      <Label fx:id="lblStatus" layoutX="50.0" layoutY="178.0" prefHeight="31.0" prefWidth="237.0" textAlignment="CENTER">
+      <TextField fx:id="txtUsername" layoutX="87.0" layoutY="646.0" prefHeight="26.0" prefWidth="302.0" />
+      <TextField fx:id="txtPassword" layoutX="59.0" layoutY="96.0" prefHeight="26.0" prefWidth="302.0" />
+      <Button fx:id="btnLogin" layoutX="68.0" layoutY="377.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="65.0" prefWidth="182.0" text="Login" textFill="#ec0000">
          <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
+            <Font size="33.0" />
+         </font></Button>
+      <Button layoutX="184.0" layoutY="54.0" mnemonicParsing="false" text="Login" textFill="#5eff4d" />
+      <Button layoutX="162.0" layoutY="200.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="68.0" text="Login" textFill="#5b008c" />
+      <Button layoutX="61.0" layoutY="292.0" mnemonicParsing="false" text="Login" textFill="#e38bf4" />
+      <Button layoutX="300.0" layoutY="292.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="83.0" text="Login" />
+      <Button layoutX="53.0" layoutY="563.0" mnemonicParsing="false" text="Login" textFill="#1e5322" />
+      <Button layoutX="444.0" layoutY="312.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="83.0" text="Login" textFill="WHITE" />
+      <Button layoutX="437.0" layoutY="472.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="90.0" text="Login" textFill="#a93d3d" />
+      <Button layoutX="679.0" layoutY="278.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="68.0" text="Login" textFill="#3d793a" />
+      <Button layoutX="815.0" layoutY="466.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="68.0" text="Login" textFill="#efa11b" />
+      <Button layoutX="440.0" layoutY="206.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Login" textFill="#ddec57" />
+      <Button layoutX="660.0" layoutY="424.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="46.0" text="Login" textFill="#5e71d9" />
+      <Button layoutX="755.0" layoutY="206.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="102.0" text="Login" textFill="#6e0000" />
+      <Button layoutX="212.0" layoutY="502.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="76.0" text="Login" textFill="#73ffde" />
    </children>
 </AnchorPane>
