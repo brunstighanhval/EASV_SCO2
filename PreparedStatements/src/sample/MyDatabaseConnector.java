@@ -12,7 +12,7 @@ import java.util.Properties;
 
 public class MyDatabaseConnector {
     private static final String PROP_FILE = "config/database.settings";
-    private SQLServerDataSource ds;
+    private SQLServertaSource ds;
 
     public MyDatabaseConnector() throws IOException {
 
@@ -20,10 +20,10 @@ public class MyDatabaseConnector {
         Properties databaseProperties = new Properties();
         databaseProperties.load(new FileInputStream(new File(PROP_FILE)));
 
-        String server = databaseProperties.getProperty("Server");
-        String database = databaseProperties.getProperty("Database");
-        String user = databaseProperties.getProperty("User");
-        String password = databaseProperties.getProperty("Password");
+        String server = databaseProperties.getProperty("10.176.111.31");
+        String database = databaseProperties.getProperty("SQLInjectionDB");
+        String user = databaseProperties.getProperty("CSe2022A_25");
+        String password = databaseProperties.getProperty("CSe2022A_25");
 
         ds = new SQLServerDataSource();
         ds.setServerName(server);
